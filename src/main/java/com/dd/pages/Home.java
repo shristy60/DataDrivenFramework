@@ -2,8 +2,10 @@ package com.dd.pages;
 
 import com.dd.base.TestBase;
 import com.dd.util.TestUtil;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -15,7 +17,11 @@ public class Home extends TestBase {
     @FindBy(xpath = "//div/span[contains(text(),'Shristy Chouhan')]")
     WebElement userNameLabel;
 
-    @FindBy(xpath="//div/a[@href='/contacts']")
+    //div[@id='main-nav']/a[@href='/contacts']/span[contains(text(),'Contacts')]
+    //div/a[@href='/contacts
+
+
+    @FindBy(xpath="//a[@href='/contacts']/span[contains(text(),'Contacts')]")
     WebElement contactsLink;
 
     @FindBy(xpath="//a[@href='/deals']")
@@ -39,9 +45,11 @@ public class Home extends TestBase {
 
     public ContactsPage clickOnContacts(){
         JavascriptExecutor js = (JavascriptExecutor)driver;
-        js.executeScript("scroll(0,300)");
-        testUtil.actions(contactsLink);
+        //js.executeScript("scroll(0,300)");
+        js.executeScript("arguments[0].scrollIntoView(true);",contactsLink);
         contactsLink.click();
+        //div/span[@class='user-display']
+        driver.findElement(By.xpath("//div/span[@class='user-display']")).click();
         return new ContactsPage();
     }
 

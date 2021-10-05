@@ -9,6 +9,10 @@ public class TestUtil extends TestBase {
      public static long PAGE_LOAD = 20;
      public static long IMPLICIT_WAIT = 10;
 
+     public void switchToFrame(){
+          driver.switchTo().frame("main-nav");
+     }
+
      public void actions(WebElement element){
           Actions action = new Actions(driver);
           //Action mouseOver = action.moveToElement(element).click().perform();
