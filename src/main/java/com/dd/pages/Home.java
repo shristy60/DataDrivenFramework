@@ -44,10 +44,11 @@ public class Home extends TestBase {
     }
 
     public ContactsPage clickOnContacts(){
-        JavascriptExecutor js = (JavascriptExecutor)driver;
+        //JavascriptExecutor js = (JavascriptExecutor)driver;
         //js.executeScript("scroll(0,300)");
-        js.executeScript("arguments[0].scrollIntoView(true);",contactsLink);
-        contactsLink.click();
+        //js.executeScript("arguments[0].scrollIntoView(true);",contactsLink);
+        testUtil.jsScrollIntoView(contactsLink);
+        //contactsLink.click();
         //div/span[@class='user-display']
         driver.findElement(By.xpath("//div/span[@class='user-display']")).click();
         return new ContactsPage();

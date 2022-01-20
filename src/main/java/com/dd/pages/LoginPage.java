@@ -28,6 +28,7 @@ public class LoginPage extends TestBase {
     //Actions
     public String validateLoginpageTitle(){
         return driver.getTitle();
+
     }
     public Home login(String un, String pd){
         //logIn.click();
