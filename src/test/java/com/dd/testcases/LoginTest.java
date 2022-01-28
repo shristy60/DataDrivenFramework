@@ -25,14 +25,15 @@ public class LoginTest extends TestBase {
 
     @Test
     public void loginPageTitleTest(){
-        log.info("****************test case started*****************");
+        log.info("**************** Test Case Execution started ****************");
+        log.info("**************** Verify Login Page Title ****************");
         String title = loginPage.validateLoginpageTitle();
         Assert.assertEquals(title,"Cogmento CRM");
     }
 
     @Test
     public void loginTest(){
-        log.info("@@@@@@@@@@@@ Login test Started @@@@@@@@@@");
+        log.info("**************** Verify Log in to Cogmento CRM ****************");
         home = loginPage.login(prop.getProperty("username"),prop.getProperty("password"));
     }
 

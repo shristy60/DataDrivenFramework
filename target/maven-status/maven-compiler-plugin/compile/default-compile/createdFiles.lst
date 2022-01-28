@@ -3,4 +3,7 @@ com/dd/pages/LoginPage.class
 com/dd/pages/SignUpPage.class
 com/dd/base/TestBase.class
 com/dd/pages/About.class
+com/dd/pages/TasksPage.class
+com/dd/pages/ContactsPage.class
 com/dd/util/TestUtil.class
+com/dd/pages/DealsPage.class

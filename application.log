@@ -7,3 +7,20 @@
 2021-09-28 14:45:55,162  INFO [main] LoginTest:35 - @@@@@@@@@@@@ Login test Started @@@@@@@@@@
 2021-10-05 13:59:54,368  INFO [main] LoginTest:28 - ****************test case started*****************
 2021-10-05 14:00:03,670  INFO [main] LoginTest:35 - @@@@@@@@@@@@ Login test Started @@@@@@@@@@
+2022-01-20 16:43:07,187  INFO [main] LoginTest:28 - ****************test case started*****************
+2022-01-20 16:43:11,311  INFO [main] LoginTest:35 - @@@@@@@@@@@@ Login test Started @@@@@@@@@@
+2022-01-27 21:00:17,285  INFO [main] LoginTest:28 - ****************test case started*****************
+2022-01-27 21:00:21,456  INFO [main] LoginTest:35 - @@@@@@@@@@@@ Login test Started @@@@@@@@@@
+2022-01-27 21:01:19,535  INFO [main] LoginTest:28 - ****************test case started*****************
+2022-01-27 21:01:23,805  INFO [main] LoginTest:35 - @@@@@@@@@@@@ Login test Started @@@@@@@@@@
+2022-01-28 15:30:16,590  INFO [main] HomePageTest:38 - *******************Verify Home Page Title***************
+2022-01-28 15:30:22,744  INFO [main] HomePageTest:45 - ***************Verify User Name in Home Page****************
+2022-01-28 15:30:29,498  INFO [main] HomePageTest:51 - *********************Verify Contacts Link in Home Page******************
+2022-01-28 15:37:32,714  INFO [main] ContactsPageTest:33 - ***************** Verify Contacts Page label ****************
+2022-01-28 15:37:39,743  INFO [main] ContactsPageTest:39 - ************** Selecting Contact by Name ***************
+2022-01-28 15:37:43,926  INFO [main] LoginTest:28 - **************** Test Case Execution started ****************
+2022-01-28 15:37:43,926  INFO [main] LoginTest:29 - **************** Verify Login Page Title ****************
+2022-01-28 15:37:48,441  INFO [main] LoginTest:36 - **************** Verify Log in to Cogmento CRM ****************
+2022-01-28 15:37:55,172  INFO [main] HomePageTest:38 - ******************* Verify Home Page Title ***************
+2022-01-28 15:38:01,149  INFO [main] HomePageTest:45 - *************** Verify User Name in Home Page ****************
+2022-01-28 15:38:07,469  INFO [main] HomePageTest:51 - ********************* Verify Contacts Link in Home Page ******************

@@ -1,37 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="com.dd.testcases.LoginTest" duration-ms="27309" started-at="2021-09-28T14:45:35 EDT" finished-at="2021-09-28T14:46:02 EDT">
+  <suite name="Command line suite" duration-ms="46194" started-at="2022-01-27T21:01:14 EST" finished-at="2022-01-27T21:02:00 EST">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="27309" started-at="2021-09-28T14:45:35 EDT" finished-at="2021-09-28T14:46:02 EDT">
-      <class name="com.dd.testcases.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.dd.testcases.LoginTest@23d2a7e8]" name="setup" is-config="true" duration-ms="8739" started-at="2021-09-28T14:45:35 EDT" finished-at="2021-09-28T14:45:44 EDT">
+    <test name="Command line test" duration-ms="46194" started-at="2022-01-27T21:01:14 EST" finished-at="2022-01-27T21:02:00 EST">
+      <class name="com.dd.testcases.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.dd.testcases.HomePageTest@6a1aab78]" name="setup" is-config="true" duration-ms="5745" started-at="2022-01-27T21:01:40 EST" finished-at="2022-01-27T21:01:45 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.dd.testcases.LoginTest@23d2a7e8]" name="loginPageTitleTest" duration-ms="23" started-at="2021-09-28T14:45:44 EDT" finished-at="2021-09-28T14:45:44 EDT">
+        <test-method status="PASS" signature="verifyHomePageTest()[pri:1, instance:com.dd.testcases.HomePageTest@6a1aab78]" name="verifyHomePageTest" duration-ms="11" started-at="2022-01-27T21:01:45 EST" finished-at="2022-01-27T21:01:45 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dd.testcases.LoginTest@23d2a7e8]" name="tearDown" is-config="true" duration-ms="4711" started-at="2021-09-28T14:45:44 EDT" finished-at="2021-09-28T14:45:49 EDT">
+        </test-method> <!-- verifyHomePageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dd.testcases.HomePageTest@6a1aab78]" name="tearDown" is-config="true" duration-ms="462" started-at="2022-01-27T21:01:45 EST" finished-at="2022-01-27T21:01:46 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.dd.testcases.LoginTest@23d2a7e8]" name="setup" is-config="true" duration-ms="6077" started-at="2021-09-28T14:45:49 EDT" finished-at="2021-09-28T14:45:55 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.dd.testcases.HomePageTest@6a1aab78]" name="setup" is-config="true" duration-ms="5176" started-at="2022-01-27T21:01:46 EST" finished-at="2022-01-27T21:01:51 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.dd.testcases.LoginTest@23d2a7e8]" name="loginTest" duration-ms="4044" started-at="2021-09-28T14:45:55 EDT" finished-at="2021-09-28T14:45:59 EDT">
+        <test-method status="PASS" signature="verifyUserNameTes()[pri:2, instance:com.dd.testcases.HomePageTest@6a1aab78]" name="verifyUserNameTes" duration-ms="1672" started-at="2022-01-27T21:01:51 EST" finished-at="2022-01-27T21:01:53 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserNameTes -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dd.testcases.HomePageTest@6a1aab78]" name="tearDown" is-config="true" duration-ms="494" started-at="2022-01-27T21:01:53 EST" finished-at="2022-01-27T21:01:53 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.dd.testcases.HomePageTest@6a1aab78]" name="setup" is-config="true" duration-ms="5357" started-at="2022-01-27T21:01:53 EST" finished-at="2022-01-27T21:01:59 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyContactsLinkTest()[pri:3, instance:com.dd.testcases.HomePageTest@6a1aab78]" name="verifyContactsLinkTest" duration-ms="1013" started-at="2022-01-27T21:01:59 EST" finished-at="2022-01-27T21:02:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dd.testcases.HomePageTest@6a1aab78]" name="tearDown" is-config="true" duration-ms="468" started-at="2022-01-27T21:02:00 EST" finished-at="2022-01-27T21:02:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dd.testcases.HomePageTest -->
+      <class name="com.dd.testcases.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.dd.testcases.LoginTest@26a7b76d]" name="setup" is-config="true" duration-ms="5156" started-at="2022-01-27T21:01:14 EST" finished-at="2022-01-27T21:01:19 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.dd.testcases.LoginTest@26a7b76d]" name="loginPageTitleTest" duration-ms="13" started-at="2022-01-27T21:01:19 EST" finished-at="2022-01-27T21:01:19 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dd.testcases.LoginTest@26a7b76d]" name="tearDown" is-config="true" duration-ms="480" started-at="2022-01-27T21:01:19 EST" finished-at="2022-01-27T21:01:20 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.dd.testcases.LoginTest@26a7b76d]" name="setup" is-config="true" duration-ms="3766" started-at="2022-01-27T21:01:20 EST" finished-at="2022-01-27T21:01:23 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.dd.testcases.LoginTest@26a7b76d]" name="loginTest" duration-ms="1553" started-at="2022-01-27T21:01:23 EST" finished-at="2022-01-27T21:01:25 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dd.testcases.LoginTest@23d2a7e8]" name="tearDown" is-config="true" duration-ms="3658" started-at="2021-09-28T14:45:59 EDT" finished-at="2021-09-28T14:46:02 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dd.testcases.LoginTest@26a7b76d]" name="tearDown" is-config="true" duration-ms="427" started-at="2022-01-27T21:01:25 EST" finished-at="2022-01-27T21:01:25 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.dd.testcases.LoginTest -->
+      <class name="com.dd.testcases.ContactsPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.dd.testcases.ContactsPageTest@74ad1f1f]" name="setup" is-config="true" duration-ms="6308" started-at="2022-01-27T21:01:25 EST" finished-at="2022-01-27T21:01:32 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyContactsPageLabelTest()[pri:1, instance:com.dd.testcases.ContactsPageTest@74ad1f1f]" name="verifyContactsPageLabelTest" duration-ms="46" started-at="2022-01-27T21:01:32 EST" finished-at="2022-01-27T21:01:32 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsPageLabelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dd.testcases.ContactsPageTest@74ad1f1f]" name="tearDown" is-config="true" duration-ms="448" started-at="2022-01-27T21:01:32 EST" finished-at="2022-01-27T21:01:32 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.dd.testcases.ContactsPageTest@74ad1f1f]" name="setup" is-config="true" duration-ms="6608" started-at="2022-01-27T21:01:32 EST" finished-at="2022-01-27T21:01:39 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="selectContactsTest()[pri:2, instance:com.dd.testcases.ContactsPageTest@74ad1f1f]" name="selectContactsTest" duration-ms="410" started-at="2022-01-27T21:01:39 EST" finished-at="2022-01-27T21:01:39 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectContactsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dd.testcases.ContactsPageTest@74ad1f1f]" name="tearDown" is-config="true" duration-ms="488" started-at="2022-01-27T21:01:39 EST" finished-at="2022-01-27T21:01:40 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dd.testcases.ContactsPageTest -->
     </test> <!-- Command line test -->
-  </suite> <!-- com.dd.testcases.LoginTest -->
+  </suite> <!-- Command line suite -->
 </testng-results>

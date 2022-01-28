@@ -4,6 +4,7 @@ import com.dd.base.TestBase;
 import com.dd.pages.ContactsPage;
 import com.dd.pages.Home;
 import com.dd.pages.LoginPage;
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -13,6 +14,7 @@ public class ContactsPageTest extends TestBase {
     LoginPage loginPage;
     Home home;
     ContactsPage contactsPage;
+    Logger log = Logger.getLogger(ContactsPageTest.class);
     public ContactsPageTest(){
         super();
     }
@@ -28,11 +30,13 @@ public class ContactsPageTest extends TestBase {
 
     @Test(priority = 1,enabled = true)
     public void verifyContactsPageLabelTest(){
+        log.info("***************** Verify Contacts Page label ****************");
         Assert.assertTrue(contactsPage.verifyContactsLabel(),"contacts label is missing on the page");
     }
 
     @Test(priority = 2)
     public void selectContactsTest(){
+        log.info("************** Selecting Contact by Name ***************");
         //Thread.sleep(5000);
         contactsPage.selectContactsByName("jay singh");
     }

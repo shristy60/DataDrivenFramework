@@ -9,11 +9,15 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import org.apache.log4j.Logger;
+
+//import java.util.logging.Logger;
 
 public class HomePageTest extends TestBase {
     LoginPage loginPage;
     Home home;
     ContactsPage contactsPage;
+    Logger log = Logger.getLogger(HomePageTest.class);
     //calling superclass by creating constructor
     public HomePageTest(){
         super();
@@ -31,17 +35,20 @@ public class HomePageTest extends TestBase {
 
     @Test(priority = 1,enabled = true)
     public void verifyHomePageTest(){
+        log.info("******************* Verify Home Page Title ***************");
         String homePageTitle = home.verifyHomePageTitle();
         Assert.assertEquals(homePageTitle,"Cogmento CRM","Home Page title not matched");
     }
 
     @Test(priority = 2,enabled = true)
     public void verifyUserNameTes(){
+        log.info("*************** Verify User Name in Home Page ****************");
         Assert.assertTrue(home.verifyUserName());
     }
 
     @Test(priority = 3)
     public void verifyContactsLinkTest(){
+        log.info("********************* Verify Contacts Link in Home Page ******************");
         contactsPage = home.clickOnContacts();
     }
 
