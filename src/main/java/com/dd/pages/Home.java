@@ -24,11 +24,16 @@ public class Home extends TestBase {
     @FindBy(xpath="//a[@href='/contacts']/span[contains(text(),'Contacts')]")
     WebElement contactsLink;
 
+    //@FindBy(xpath = "//a[@href='/contacts']/span[contains(text(),'Contacts')]//following-sibling::button[@class='ui mini basic icon button']")
+    //WebElement addNewContact;
+
     @FindBy(xpath="//a[@href='/deals']")
     WebElement dealsLink;
 
     @FindBy(xpath="//a[@href='/tasks']")
     WebElement tasksLink;
+
+
 
     //Initializing the Home page objects
     public Home(){
@@ -53,6 +58,8 @@ public class Home extends TestBase {
         driver.findElement(By.xpath("//div/span[@class='user-display']")).click();
         return new ContactsPage();
     }
+
+
 
     public DealsPage clickOnDeals(){
         dealsLink.click();

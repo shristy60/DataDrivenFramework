@@ -5,8 +5,8 @@
         <classes>
             <class name="com.dd.testcases.LoginTest">
                 <methods>
-                    <include name="verifyContactsPageLabelTest"/>
-                    <include name="selectContactsTest"/>
+                    <include name="loginPageTitleTest"/>
+                    <include name="loginTest"/>
                 </methods>
             </class>
             <class name="com.dd.testcases.HomePageTest">
@@ -18,8 +18,9 @@
             </class>
             <class name="com.dd.testcases.ContactsPageTest">
                 <methods>
-                    <include name="loginPageTitleTest"/>
-                    <include name="loginTest"/>
+                    <include name="verifyContactsPageLabelTest"/>
+                    <include name="selectContactsTest"/>
+                    <include name="createContactTest"/>
                 </methods>
             </class>
         </classes>

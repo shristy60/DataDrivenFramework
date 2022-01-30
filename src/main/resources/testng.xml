@@ -20,6 +20,7 @@
                 <methods>
                     <include name="verifyContactsPageLabelTest"/>
                     <include name="selectContactsTest"/>
+                    <include name="createContactTest"/>
                 </methods>
             </class>
         </classes>

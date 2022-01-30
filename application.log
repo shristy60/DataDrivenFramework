@@ -24,3 +24,17 @@
 2022-01-28 15:37:55,172  INFO [main] HomePageTest:38 - ******************* Verify Home Page Title ***************
 2022-01-28 15:38:01,149  INFO [main] HomePageTest:45 - *************** Verify User Name in Home Page ****************
 2022-01-28 15:38:07,469  INFO [main] HomePageTest:51 - ********************* Verify Contacts Link in Home Page ******************
+2022-01-28 17:13:20,406  INFO [main] ContactsPageTest:33 - ***************** Verify Contacts Page label ****************
+2022-01-28 17:13:27,617  INFO [main] ContactsPageTest:39 - ************** Selecting Contact by Name ***************
+2022-01-29 16:33:54,091  INFO [main] ContactsPageTest:38 - ***************** Verify Contacts Page label ****************
+2022-01-29 16:34:01,438  INFO [main] ContactsPageTest:44 - ************** Selecting Contact by Name ***************
+2022-01-29 17:43:34,909  INFO [main] ContactsPageTest:38 - ***************** Verify Contacts Page label ****************
+2022-01-29 17:43:42,788  INFO [main] ContactsPageTest:44 - ************** Selecting Contact by Name ***************
+2022-01-29 18:57:24,182  INFO [main] ContactsPageTest:38 - ***************** Verify Contacts Page label ****************
+2022-01-29 18:57:32,399  INFO [main] ContactsPageTest:44 - ************** Selecting Contact by Name ***************
+2022-01-29 19:24:13,840  INFO [main] LoginTest:28 - **************** Test Case Execution started ****************
+2022-01-29 19:24:13,845  INFO [main] LoginTest:29 - **************** Verify Login Page Title ****************
+2022-01-29 19:24:18,194  INFO [main] LoginTest:36 - **************** Verify Log in to Cogmento CRM ****************
+2022-01-29 21:09:54,966  INFO [main] LoginTest:28 - **************** Test Case Execution started ****************
+2022-01-29 21:09:54,973  INFO [main] LoginTest:29 - **************** Verify Login Page Title ****************
+2022-01-29 21:09:59,538  INFO [main] LoginTest:36 - **************** Verify Log in to Cogmento CRM ****************
