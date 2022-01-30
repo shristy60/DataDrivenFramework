@@ -38,3 +38,21 @@
 2022-01-29 21:09:54,966  INFO [main] LoginTest:28 - **************** Test Case Execution started ****************
 2022-01-29 21:09:54,973  INFO [main] LoginTest:29 - **************** Verify Login Page Title ****************
 2022-01-29 21:09:59,538  INFO [main] LoginTest:36 - **************** Verify Log in to Cogmento CRM ****************
+2022-01-29 21:35:48,165  INFO [main] LoginTest:28 - **************** Test Case Execution started ****************
+2022-01-29 21:35:48,172  INFO [main] LoginTest:29 - **************** Verify Login Page Title ****************
+2022-01-29 21:35:52,267  INFO [main] LoginTest:36 - **************** Verify Log in to Cogmento CRM ****************
+2022-01-29 21:36:00,079  INFO [main] HomePageTest:38 - ******************* Verify Home Page Title ***************
+2022-01-29 21:36:06,556  INFO [main] HomePageTest:45 - *************** Verify User Name in Home Page ****************
+2022-01-29 21:36:12,893  INFO [main] HomePageTest:51 - ********************* Verify Contacts Link in Home Page ******************
+2022-01-29 21:36:20,990  INFO [main] ContactsPageTest:38 - ***************** Verify Contacts Page label ****************
+2022-01-29 21:36:28,502  INFO [main] ContactsPageTest:44 - ************** Selecting Contact by Name ***************
+2022-01-29 21:36:29,719 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-01-29 21:36:29,720 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2022-01-29 21:36:29,721 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-01-29 21:36:29,722 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-01-29 21:36:29,722 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/shris/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2022-01-29 21:36:29,931 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-01-29 21:36:29,932 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2022-01-29 21:36:29,933 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-01-29 21:36:29,934 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-01-29 21:36:29,934 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/shris/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
