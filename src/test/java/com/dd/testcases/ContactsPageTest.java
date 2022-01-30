@@ -52,7 +52,7 @@ public class ContactsPageTest extends TestBase {
         return data;
     }
 
-    @Test(priority = 3, dataProvider = "getCRMTestData", enabled = false)
+    @Test(priority = 3, dataProvider = "getCRMTestData", enabled = true)
     public void createContactTest(String firstName, String lastName, String status){
         contactsPage.clickOnAddNewContact();
         contactsPage.createNewContact(firstName,lastName,status);
